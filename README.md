@@ -16,11 +16,7 @@ The implementation uses only Python's standard library.
 
 ## Google Sheets import
 
-Copy `google_apps_script/Code.gs` into the Apps Script project attached to your
-Google Sheet and run `updateRedzoneUsage`. The first run asks for permission to
-access the CSV and spreadsheet. The function replaces the contents of the
-`Redzone_usage` tab in spreadsheet
-`1rhr56JhDE31GxeNSu8OakiIQsZbfmcM8vOrRDIISoMA`.
+
 
 If you want Sheets to refresh automatically after GitHub updates the CSV, add an
 Apps Script time-driven trigger for `updateRedzoneUsage` on Tuesdays after
